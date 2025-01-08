@@ -17,7 +17,6 @@ public class Ejemplo081 {
         Scanner entrada = new Scanner(System.in);
         // 
         String mensajeSuma = "";
-        String mensajeSumaDos = "";
 
         int opcion;
         int limite;
@@ -35,7 +34,7 @@ public class Ejemplo081 {
                 mensajeSuma = obtenerTablaSumar(limite, tabla);
                 break;
             case 2:
-                mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
+                mensajeSuma = obtenerTablaMultiplicar(limite, tabla);
                 break;
         }
 
@@ -45,7 +44,6 @@ public class Ejemplo081 {
         // devuelve se lo 
         // almacena  en mensajeSuma
         System.out.printf("%s\n", mensajeSuma);
-        System.out.printf("%s\n", mensajeSumaDos);
     }
 
     public static String obtenerTablaSumar(int limite, int tabla) {
