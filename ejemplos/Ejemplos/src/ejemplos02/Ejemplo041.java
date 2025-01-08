@@ -10,6 +10,18 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
+    /*
+    Este programa contiene 3 arreglos, los arreglos 1 y 2 estan asignados sus 
+    valores, el arreglo 3 no tiene valores asignados, por lo que con el uso 
+    de una funcion llamada obtenerMultiplicacion, le vamos a asignar los valores
+    al arreglo.
+    la funcion obtenerMultiplicacion es una funcion que va a multiplicar
+    cada valor de los arreglos 1 y 2 en sus respectivas posiciones y los va a 
+    guardar en cada posicion del arreglo 3.
+    Luego con los procedimientos de obtenerReporte, vamos a presentar en 
+    pantalla una cadena que va a contener todos los valores de los arreglos 1,
+    2 y 3.
+    */
 
     public static void main(String[] args) {
         // 
